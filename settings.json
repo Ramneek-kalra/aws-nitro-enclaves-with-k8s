@@ -1,10 +1,10 @@
 {
   "region" : "eu-central-1",
-  "instance_type" : "m5.2xlarge",
+  "instance_type" : "m7a.2xlarge",
   "eks_cluster_name" : "eks-ne-cluster",
   "eks_worker_node_name" : "eks-ne-nodegroup",
   "eks_worker_node_capacity": "1",
-  "k8s_version" : "1.22",
+  "k8s_version" : "1.30",
   "node_enclave_cpu_limit": 2,
   "node_enclave_memory_limit_mib": 768
 }
